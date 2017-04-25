@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1e1dec651ae3c4504a67dcd101fc5696
-timeCreated: 1493139398
+timeCreated: 1493142908
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -13,15 +13,15 @@ TextureImporter:
     21300012: sprites_6
     21300014: sprites_7
     21300016: sprites_8
-    21300018: sprites_9
+    21300018: bird_up
     21300020: sprites_10
     21300022: sprites_11
-    21300024: sprites_12
+    21300024: bird_center
     21300026: sprites_13
     21300028: sprites_14
     21300030: sprites_15
     21300032: sprites_16
-    21300034: sprites_17
+    21300034: bird_down
     21300036: sprites_18
     21300038: sprites_19
     21300040: sprites_20
@@ -46,7 +46,7 @@ TextureImporter:
     21300078: sprites_39
     21300080: sprites_40
     21300082: sprites_41
-    21300084: sprites_42
+    21300084: start
     21300086: sprites_43
     21300088: sprites_44
     21300090: sprites_45
@@ -262,7 +262,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprites_9
+      name: bird_up
       rect:
         serializedVersion: 2
         x: 264
@@ -301,7 +301,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprites_12
+      name: bird_center
       rect:
         serializedVersion: 2
         x: 264
@@ -366,7 +366,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprites_17
+      name: bird_down
       rect:
         serializedVersion: 2
         x: 223
@@ -691,7 +691,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprites_42
+      name: start
       rect:
         serializedVersion: 2
         x: 242
