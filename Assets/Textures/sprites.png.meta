@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: 1e1dec651ae3c4504a67dcd101fc5696
-timeCreated: 1493142908
+timeCreated: 1493188857
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: background
-    21300002: sprites_1
-    21300004: sprites_2
-    21300006: sprites_3
+    21300002: ground
+    21300004: obstacle_top
+    21300006: obstacle_bottom
     21300008: sprites_4
     21300010: sprites_5
     21300012: sprites_6
@@ -158,7 +158,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprites_1
+      name: ground
       rect:
         serializedVersion: 2
         x: 146
@@ -171,20 +171,20 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprites_2
+      name: obstacle_top
       rect:
         serializedVersion: 2
-        x: 295
+        x: 301
         y: 121
-        width: 33
+        width: 27
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sprites_3
+      name: obstacle_bottom
       rect:
         serializedVersion: 2
         x: 330
